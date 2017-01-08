@@ -8,6 +8,14 @@ def startup_list(request):
         'organizer/startup_list.html',
         {'startup_list': Startup.objects.all()})
 
+def startup_detail(request, slug):
+    startup = get_object_or_404(
+        Startup, slug__iexact=slug)
+    return render(
+        request,
+        'organizer/startup_detail.html',
+        {'startup': startup})
+
 def tag_list(request):
     return render(
         request,
