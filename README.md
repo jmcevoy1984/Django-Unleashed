@@ -7,4 +7,4 @@ The book walks through an example of a startup organizer project containing mult
 
 This is the Django project I am currently working through from the above book.
 
-# Current Chapter: Chapter 5 - Creating Webpages with Controllers in Django (Chp: 5.8.3)
+# Current Chapter: Chapter 7 - Allowing User Input with Forms (Chp: 7.1)
