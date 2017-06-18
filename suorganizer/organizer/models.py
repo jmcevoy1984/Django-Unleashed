@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.urlresolvers import reverse
 
 
 class Tag(models.Model):
@@ -10,6 +11,10 @@ class Tag(models.Model):
 
     def __str__(self):
         return self.name.title()
+
+    def get_absolute_url(self):
+        return reverse('organizer_tag_detail',
+                       kwargs={'slug': self.slug})
 
     class Meta:
         ordering = ['name']
@@ -31,6 +36,10 @@ class Startup(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse('organizer_startup_detail',
+                       kwargs={'slug': self.slug})
 
     class Meta:
         ordering = ['name']
