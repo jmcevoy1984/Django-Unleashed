@@ -7,4 +7,4 @@ The book walks through an example of a startup organizer project containing mult
 
 This is the Django project I am currently working through from the above book.
 
-# Current Chapter: Chapter 7 - Allowing User Input with Forms (Chp: 7.1)
+# Current Chapter: Chapter 8 - Displaying Forms in Templates (Chp: 8.1)
