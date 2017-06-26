@@ -16,6 +16,11 @@
                         {{ post.pub_date|date:"l, jS F, Y" }}
                     </time>
                 </p>
+                <ul>
+                    <li>
+                        <a href="{{ post.get_update_url }}">
+                            Edit Post</a></li>
+                </ul>
             </header>
             <p>{{ post.text|truncatewords:20 }}</p>
             <p>

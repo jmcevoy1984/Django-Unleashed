@@ -9,7 +9,11 @@
                 </time>
             </p>
         </header>
-
+        <ul>
+            <li>
+                <a href="{{ post.get_update_url }}">
+                    Edit Post</a></li>
+        </ul>
         {{ post.text|linebreaks }}
 
         {% if post.startups.all or post.tags.all %}

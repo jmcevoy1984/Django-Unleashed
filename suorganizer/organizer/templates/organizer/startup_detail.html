@@ -38,6 +38,11 @@
         </section>
     {% endif %}
 
+    <ul>
+        <li>
+            <a href="{{ newslink.get_update_url }}">
+                Edit Link</a></li>
+    </ul>
     {% if startup.blog_posts.all%}
         <section>
             <h3>Blog Post{{ startup.blog_posts.all|pluralize }}</h3>
