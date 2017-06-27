@@ -16,6 +16,10 @@ class Tag(models.Model):
         return reverse('organizer_tag_detail',
                        kwargs={'slug': self.slug})
 
+    def get_update_url(self):
+        return reverse('organizer_tag_update',
+                       kwargs={'slug': self.slug})
+
     class Meta:
         ordering = ['name']
 
@@ -39,6 +43,10 @@ class Startup(models.Model):
 
     def get_absolute_url(self):
         return reverse('organizer_startup_detail',
+                       kwargs={'slug': self.slug})
+
+    def get_update_url(self):
+        return reverse('organizer_startup_update',
                        kwargs={'slug': self.slug})
 
     class Meta:

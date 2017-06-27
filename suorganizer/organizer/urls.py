@@ -21,6 +21,9 @@ urlpatterns = [
     url(r'^startup/(?P<slug>[\w\-]+)/$',
         startup_detail,
         name='organizer_startup_detail'),
+    url(r'^startup/(?P<slug>[\w\-]+)/update/$',
+        StartupUpdate,
+        name='organizer_startup_update'),
     url(r'^tag/$',
         tag_list,
         name='organizer_tag_list'),
@@ -29,5 +32,8 @@ urlpatterns = [
         name='organizer_tag_create'),
     url(r'^tag/(?P<slug>[\w\-]+)/$',
         tag_detail,
-        name='organizer_tag_detail')
+        name='organizer_tag_detail'),
+    url(r'^tag/(?P<slug>[\w\-]+)/update/$',
+        TagUpdate.as_view(),
+        name='organizer_tag_update')
 ]

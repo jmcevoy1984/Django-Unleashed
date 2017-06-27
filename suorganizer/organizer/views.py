@@ -4,7 +4,7 @@ from django.views.generic import View
 
 from .models import Startup, Tag
 from .forms import NewsLinkForm, StartupForm, TagForm
-from .utils import ObjectCreateMixin
+from .utils import ObjectCreateMixin, ObjectUpdateMixin
 
 
 class NewsLinkCreate(ObjectCreateMixin, View):
@@ -65,6 +65,11 @@ def startup_detail(request, slug):
         'organizer/startup_detail.html',
         {'startup': startup})
 
+class StartupUpdate(ObjectUpdateMixin, View):
+    form_class = StartupForm
+    model = Startup
+    template_name = (
+        'organizer/startup_form_update.html')
 
 def tag_list(request):
     return render(
@@ -85,3 +90,10 @@ def tag_detail(request, slug):
 class TagCreate(ObjectCreateMixin, View):
     form_class = TagForm
     template_name = 'organizer/tag_form.html'
+
+
+class TagUpdate(ObjectUpdateMixin, View):
+    form_class = TagForm
+    model = Tag
+    template_name = (
+        'organizer/tag_form_update.html')

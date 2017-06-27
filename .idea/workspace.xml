@@ -4,14 +4,13 @@
     <list default="true" id="21d76c6a-fae4-4a8d-ac01-866e34606aaa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/blog/models.py" afterPath="$PROJECT_DIR$/suorganizer/blog/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/blog/templates/blog/post_detail.html" afterPath="$PROJECT_DIR$/suorganizer/blog/templates/blog/post_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/blog/templates/blog/post_list.html" afterPath="$PROJECT_DIR$/suorganizer/blog/templates/blog/post_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/blog/urls.py" afterPath="$PROJECT_DIR$/suorganizer/blog/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/blog/views.py" afterPath="$PROJECT_DIR$/suorganizer/blog/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/organizer/models.py" afterPath="$PROJECT_DIR$/suorganizer/organizer/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_detail.html" afterPath="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_list.html" afterPath="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_detail.html" afterPath="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_list.html" afterPath="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/organizer/urls.py" afterPath="$PROJECT_DIR$/suorganizer/organizer/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/organizer/utils.py" afterPath="$PROJECT_DIR$/suorganizer/organizer/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suorganizer/organizer/views.py" afterPath="$PROJECT_DIR$/suorganizer/organizer/views.py" />
     </list>
     <ignored path="first_project.iws" />
@@ -39,20 +38,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/suorganizer/organizer/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suorganizer/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="242">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -63,50 +50,28 @@
       <file leaf-file-name="startup_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="273">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suorganizer/blog/models.py">
+      <file leaf-file-name="tag_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+            <state relative-caret-position="420">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suorganizer/blog/views.py">
+      <file leaf-file-name="startup_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suorganizer/blog/templates/blog/post_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suorganizer/blog/templates/blog/post_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -115,8 +80,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/suorganizer/organizer/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="1533">
+              <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
               <folding>
                 <element signature="e#0#71#0" expanded="true" />
               </folding>
@@ -124,22 +89,74 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tag_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/suorganizer/organizer/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="483">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="189">
+                <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tag_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+            <state relative-caret-position="399">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suorganizer/organizer/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+              <folding>
+                <marker date="1498587824768" expanded="true" signature="654:1584" ph="..." />
+                <marker date="1498587824768" expanded="true" signature="751:1027" ph="..." />
+                <marker date="1498587824768" expanded="true" signature="1063:1584" ph="..." />
+                <marker date="1498587824768" expanded="true" signature="1251:1334" ph="..." />
+                <marker date="1498587824768" expanded="true" signature="1348:1584" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +179,6 @@
         <option value="$USER_HOME$/college_python/gettysburg/gettysburg.py" />
         <option value="$PROJECT_DIR$/suorganizer/suorganizer/views.py" />
         <option value="$PROJECT_DIR$/suorganizer/templates/base.html" />
-        <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_detail.html" />
         <option value="$PROJECT_DIR$/suorganizer/blog/forms.py" />
         <option value="$PROJECT_DIR$/suorganizer/organizer/forms.py" />
         <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_form.html" />
@@ -171,19 +187,20 @@
         <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_form.html" />
         <option value="$PROJECT_DIR$/suorganizer/blog/templates/blog/post_form.html" />
         <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/newslink_form.html" />
-        <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_list.html" />
-        <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_list.html" />
         <option value="$PROJECT_DIR$/suorganizer/suorganizer/urls.py" />
-        <option value="$PROJECT_DIR$/suorganizer/organizer/utils.py" />
         <option value="$PROJECT_DIR$/suorganizer/blog/urls.py" />
         <option value="$PROJECT_DIR$/suorganizer/blog/models.py" />
         <option value="$PROJECT_DIR$/suorganizer/blog/views.py" />
         <option value="$PROJECT_DIR$/suorganizer/blog/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/suorganizer/blog/templates/blog/post_list.html" />
+        <option value="$PROJECT_DIR$/suorganizer/organizer/utils.py" />
         <option value="$PROJECT_DIR$/suorganizer/organizer/urls.py" />
         <option value="$PROJECT_DIR$/suorganizer/organizer/models.py" />
         <option value="$PROJECT_DIR$/suorganizer/organizer/views.py" />
+        <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_detail.html" />
         <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_detail.html" />
+        <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_list.html" />
+        <option value="$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_list.html" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -196,8 +213,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1985" />
-    <option name="y" value="80" />
-    <option name="width" value="1565" />
+    <option name="y" value="52" />
+    <option name="width" value="1855" />
     <option name="height" value="662" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -226,7 +243,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,6 +321,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,10 +580,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="80" width="1565" height="662" extended-state="0" />
+    <frame x="1985" y="52" width="1855" height="662" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23578274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19892183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -653,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#645#686#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,9 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#645#686#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,9 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#645#686#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,13 +812,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/suorganizer/views.py" />
-    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -863,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -877,52 +871,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/suorganizer/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="e#645#686#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="378">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="735">
           <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
           <folding />
         </state>
@@ -930,7 +898,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="1386">
           <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
@@ -940,7 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/blog/templates/blog/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="357">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
@@ -948,16 +916,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/blog/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="441">
           <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <marker date="1498587824768" expanded="true" signature="654:1584" ph="..." />
+            <marker date="1498587824768" expanded="true" signature="751:1027" ph="..." />
+            <marker date="1498587824768" expanded="true" signature="1063:1584" ph="..." />
+            <marker date="1498587824768" expanded="true" signature="1251:1334" ph="..." />
+            <marker date="1498587824768" expanded="true" signature="1348:1584" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/organizer/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="242">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -966,16 +956,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/organizer/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+        <state relative-caret-position="483">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/organizer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="1533">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
           </folding>
@@ -984,17 +984,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        <state relative-caret-position="273">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/startup_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suorganizer/organizer/templates/organizer/tag_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>

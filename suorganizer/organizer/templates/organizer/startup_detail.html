@@ -1,14 +1,18 @@
 <article>
 
     <h2>{{ startup_name }}</h2>
-    <d1>
+    <dl>
         <dt>Date Founded</dt>
             <dd>{{ startup.founded_date|date:"jS F, Y" }}</dd>
         <dt>Website</dt>
             <dd>{{ startup.website }}</dd>
         <dt>Contact</dt>
             <dd>{{ startup.contact }}</dd>
-
+        <ul>
+            <li>
+                <a href="{{ startup.get_update_url }}">
+                    Edit Startup</a></li>
+        </ul>
         <dt>Tag{{ startup.tags.count|pluralize }}</dt>
         {% for tag in startup.tags.all %}
             <dd><a href="{{ tag.get_absolute_url }}">
@@ -16,7 +20,7 @@
             </a></dd>
         {% endfor %}
 
-    </d1>
+    </dl>
 
     {{ startup.description|linebreaks }}
 
