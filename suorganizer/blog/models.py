@@ -18,6 +18,11 @@ class Post(models.Model):
     startups = models.ManyToManyField(
         Startup, related_name='blog_posts')
 
+    class Meta:
+        verbose_name = 'blog_post'
+        ordering = ['-pub_date']
+        get_latest_by = 'pub_date'
+
     def __str__(self):
         return "{} on {}".format(
             self.title,
@@ -37,9 +42,11 @@ class Post(models.Model):
                     'month': self.pub_date.month,
                     'slug': self.slug})
 
-    class Meta:
-        verbose_name = 'blog_post'
-        ordering = ['-pub_date']
-        get_latest_by = 'pub_date'
+    def get_delete_url(self):
+        return reverse(
+            'blog_post_delete',
+            kwargs={'year': self.pub_date.year,
+                    'month': self.pub_date.month,
+                    'slug': self.slug})
 
 

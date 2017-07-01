@@ -7,4 +7,4 @@ The book walks through an example of a startup organizer project containing mult
 
 This is the Django project I am currently working through from the above book.
 
-# Current Chapter: Chapter 9 - Controlling Forms in Views (Chp: 9.4)
+# Current Chapter: Chapter 9 - Controlling Forms in Views (Chp: 9.4.3.1)

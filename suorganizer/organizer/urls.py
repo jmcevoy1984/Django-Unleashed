@@ -12,6 +12,9 @@ urlpatterns = [
     url(r'^newslink/update/(?P<pk>\d+)$',
         NewsLinkUpdate.as_view(),
         name='organizer_newslink_update'),
+    url(r'^newslink/delete/(?P<pk>\d+)$',
+        NewsLinkDelete.as_view(),
+        name='organizer_newslink_update'),
     url(r'^startup/$',
         startup_list,
         name='organizer_startup_list'),
@@ -35,5 +38,8 @@ urlpatterns = [
         name='organizer_tag_detail'),
     url(r'^tag/(?P<slug>[\w\-]+)/update/$',
         TagUpdate.as_view(),
-        name='organizer_tag_update')
+        name='organizer_tag_update'),
+    url(r'^tag/(?P<slug>[\w\-]+)/delete/$',
+        TagDelete.as_view(),
+        name='organizer_tag_delete'),
 ]
