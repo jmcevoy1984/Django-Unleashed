@@ -1,10 +1,13 @@
 from django.shortcuts import (
     get_object_or_404, render, redirect)
 from django.views.generic import View
+from django.core.urlresolvers import reverse_lazy
 
 from .models import Startup, Tag
 from .forms import NewsLinkForm, StartupForm, TagForm
-from .utils import ObjectCreateMixin, ObjectUpdateMixin
+from .utils import (
+    ObjectCreateMixin, ObjectUpdateMixin,
+    ObjectDeleteMixin)
 
 
 class NewsLinkCreate(ObjectCreateMixin, View):
@@ -33,15 +36,14 @@ class NewsLinkUpdate(View):
             NewsLink, pk=pk)
         bound_form = self.form_class(
             request.POST, instance=newslink)
-        else:
-            context = {
-                'form': bound_form,
-                'newslink': newslink
-            }
-            return render(
-                request,
-                self.template_name,
-                context)
+        context = {
+            'form': bound_form,
+            'newslink': newslink
+        }
+        return render(
+            request,
+            self.template_name,
+            context)
 
 
 class NewsLinkDelete(View):
@@ -83,11 +85,21 @@ def startup_detail(request, slug):
         'organizer/startup_detail.html',
         {'startup': startup})
 
+
 class StartupUpdate(ObjectUpdateMixin, View):
     form_class = StartupForm
     model = Startup
     template_name = (
         'organizer/startup_form_update.html')
+
+
+class StartupDelete(ObjectUpdateMixin, View):
+    model = Startup
+    success_url = reverse_lazy(
+        'organizer_startup_list')
+    template_name = (
+        'organizer/startup_confirm_delete.html')
+
 
 def tag_list(request):
     return render(
@@ -115,3 +127,10 @@ class TagUpdate(ObjectUpdateMixin, View):
     model = Tag
     template_name = (
         'organizer/tag_form_update.html')
+
+class TagDelete(ObjectDeleteMixin, View):
+    model = Tag
+    success_url = reverse_lazy(
+        'organizer_tag_list')
+    template_name = (
+        'organizer/tag_confirm_delete.html')

@@ -2,7 +2,8 @@ from django.conf.urls import url
 
 
 from .views import (
-    PostCreate, PostList, PostUpdate, post_detail)
+    PostCreate, PostUpdate, PostDelete,
+    PostList, post_detail)
 
 
 urlpatterns = [
@@ -22,7 +23,7 @@ urlpatterns = [
         r'(?P<slug>[\w\-]+)/'
         r'update/$',
         PostUpdate.as_view(),
-        name='blog_post_update')
+        name='blog_post_update'),
     url(r'^(?P<year>\d{4})/'
         r'(?P<month>\d{1,2})/'
         r'(?P<slug>[\w\-]+)/'
